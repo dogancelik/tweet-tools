@@ -1,0 +1,9 @@
+{
+  "author": "Doğan Çelik",
+  "name": "tweet-tools",
+  "version": "0.1.0",
+  "bin": {
+    "tweet-backup": "./tweet-backup.js",
+    "tweet-compile": "./tweet-compile.js"
+  }
+}

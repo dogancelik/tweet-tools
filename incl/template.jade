@@ -1,0 +1,20 @@
+!!! 5
+html
+  head
+    title= username
+    meta(charset='utf-8')
+    style
+      body {width:700px;margin:0 auto;}
+      .name {font-weight:bold;}
+      .screen-name {color:gray;}
+      li {list-style:none inside;padding:16px 2px 2px 16px;border-radius:5px;background-color:#eee;margin-bottom:5px;}
+  body
+    h1 Tweets by #{username}
+    ul
+      each tweet in tweets
+        li
+          div
+            span.name= tweet.user.name
+            |  
+            span.screen-name @#{tweet.user.screen_name}
+          p= tweet.text
