@@ -37,7 +37,7 @@ Available switches are:
 
     tweet-compile -f tweets_2012-04-23_23-05-14.json
 
-This will generate a HTML file for your JSON file. (something like this: `tweets_2012-04-23_23-05-14.json`)
+This will generate a HTML file for your JSON file. (something like this: `tweets_2012-04-23_23-05-14.html`)
 
 ### incl/template.jade
 This is your template for generating HTML files from your JSON files. You can learn how to use it [here](https://github.com/visionmedia/jade).
