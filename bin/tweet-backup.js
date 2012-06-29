@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 var fs = require('fs');
-var util = require("./lib/util.js");
-
-var Parser = require("./lib/parser.js");
-var Translator = require("./lib/translator.js");
-var Downloader = require("./lib/downloader.js");
+var util = require("../lib/util.js");
+var Parser = require("../lib/parser.js");
+var Translator = require("../lib/translator.js");
+var Downloader = require("../lib/downloader.js");
 
 var parser = new Parser();
 parser.setSwitches([

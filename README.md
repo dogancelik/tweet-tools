@@ -2,10 +2,18 @@
 tweet-tools is a set of tools for your tweets.
 
 ## How to install
+### First way
 
     git clone git://github.com/dogancelik/tweet-tools.git
     cd tweet-tools
-    sudo npm install tweet-tools
+    git submodule init
+    git submodule update
+    sudo npm link .
+
+### Second way
+I'm not sure about this one...
+
+    sudo npm link git://github.com/dogancelik/tweet-tools.git
 
 ## tweet-backup
 tweet-backup will save your last 3200 tweets in your Twitter account to a JSON file. It uses Twitter API to fetch tweets.

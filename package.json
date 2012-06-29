@@ -1,9 +1,13 @@
 {
   "author": "Doğan Çelik",
   "name": "tweet-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
-    "tweet-backup": "./tweet-backup.js",
-    "tweet-compile": "./tweet-compile.js"
+    "tweet-backup": "./bin/tweet-backup.js",
+    "tweet-compile": "./bin/tweet-compile.js"
+  },
+  "dependencies": {
+    "async": "0.1.x",
+    "jade": "0.25.x"
   }
 }

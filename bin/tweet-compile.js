@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 var fs = require('fs');
-var util = require("./lib/util.js");
-var Parser = require("./lib/parser.js");
-var Translator = require("./lib/translator.js");
+var path = require('path')
+var util = require("../lib/util.js");
+var Parser = require("../lib/parser.js");
+var Translator = require("../lib/translator.js");
 
 var parser = new Parser();
 parser.setSwitches([
   {name: 'file'},
-  {name: 'template', default: './incl/template.jade'},
+  {name: 'template', default: path.join(__dirname,'../incl/template.jade')},
   {name: 'output', default: 'html'},
   {name: 'pipe', type: 'boolean', default: false},
 ]);

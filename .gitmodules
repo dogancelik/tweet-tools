@@ -4,6 +4,3 @@
 [submodule "node_modules/jade"]
 	path = node_modules/jade
 	url = git://github.com/visionmedia/jade.git
-[submodule "node_modules/commander"]
-	path = node_modules/commander
-	url = git://github.com/visionmedia/commander.js.git
